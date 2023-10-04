@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Single Page Website</title>
+    <style>
+        /* Reset some default styles for the page */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the hero section with a background image */
+        .hero {
+            position: relative;
+            background-image: url('your-hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px; /* Adjust the height as needed */
+        }
+
+        /* Style the header text on top of the hero image */
+        .hero-header {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        /* Style the container for the three columns */
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        /* Style each column */
+        .column {
+            flex-basis: calc(33.33% - 20px); /* Adjust width as needed */
+            padding: 20px;
+            background-color: #fff;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the thumbnail image */
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style the article title */
+        .column h2 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+
+        /* Style the intro text */
+        .column p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-header">GET IT</div>
+    </div>
+    
+    <div class="columns">
+        <div class="column">
+            <img src="thumbnail1.jpg" alt="Thumbnail 1">
+            <h2>Article Title 1</h2>
+            <p>Intro to the article goes here.</p>
+        </div>
+        <div class="column">
+            <img src="thumbnail2.jpg" alt="Thumbnail 2">
+            <h2>Article Title 2</h2>
+            <p>Intro to the article goes here.</p>
+        </div>
+        <div class="column">
+            <img src="thumbnail3.jpg" alt="Thumbnail 3">
+            <h2>Article Title 3</h2>
+            <p>Intro to the article goes here.</p>
+        </div>
+    </div>
+</body>
+</html>
