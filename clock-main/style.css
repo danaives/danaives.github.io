@@ -12,17 +12,22 @@ body {
 .number {
   font-size: 60px;
   font-weight:bold;
-  position:absolute
+  position:absolute;
 }
 .minute {
-  position:absolute
+  position:absolute;
   top: 48%;
   left: 48%;
+  border: 1px solid black;
+  height: 50%;
+  
 }
 .hour {
-  position:absolute
+  position:absolute;
   top: 48%;
   left: 48%;
+  border: 1px solid black;
+  width: 50%;
 }
 
 main {
@@ -44,17 +49,54 @@ main {
   width:200px;
   height:20px;
 }
-.one {}
-.two {}
-.three {}
-.four {}
-.five {}
-.six {}
-.seven {}
-.eight {}
-.nine {}
-.ten {}
-.eleven {}
-.twelve {}
+.one {
+  top: 10%;
+  right: 26%;
+}
+.two {
+  top: 27%;
+  right: 10%;
+}
+.three {
+  top: 45%;
+  right: 4%;
+}
+.four {
+  bottom: 26%;
+  right: 10%;
+}
+.five {
+  bottom: 10%;
+  right: 26%
+}
+.six {
+  bottom: 4%;
+  left: 47%;
+
+}
+.seven {
+  bottom: 10%;
+  left: 26%
+}
+.eight {
+  bottom: 26%;
+  left: 10%;
+}
+.nine {
+  top: 45%;
+  left: 4%;
+}
+.ten {
+  top: 25%;
+  left: 9%;
+}
+.eleven {
+  top: 10%;
+  left: 26%;
+}
+.twelve {
+  top: 4%;
+  left: 47%;
+}
 .hour {}
 .minute {}
