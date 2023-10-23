@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+html, body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the pink background for the entire website */
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #FFC0CB; /* Light pink */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray */
+    font-weight: bold;
+}
+
+/* Style the content sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #FFC0CB; /* Light pink */
+    font-size: 1.5em;
+}
+
+/* Style the footer */
+footer {
+    background-color: #FFC0CB; /* Light pink */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more specific styles for different pages and categories if needed */

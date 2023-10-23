@@ -1,0 +1,167 @@
+
+@font-face {
+    font-family: "postino-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url('path-to-your-font.woff2') format('woff2'), /* Modern Browsers */
+         url('path-to-your-font.woff') format('woff');     /* Older Browsers */
+    /* Add other font properties, such as font-weight and font-style if needed */
+    
+}
+
+@font-face{
+    font-family: 'Menorah Grotesk';
+    font-weight: 400;         
+    font-style: normal;
+    src: url(fonts/MenorahGroteskTRIAL-Medium.otf) format('opentype');
+  }
+  
+
+*{
+    box-sizing: border-box; 
+  }
+  
+  h1 {
+    font-family: 'Postino Std';
+    color: #fff;
+    padding-left: 30px;
+    font-size: 111px;
+  }
+
+  h2 {
+    font-family: 'Menorah Grotesk';
+    font-size: 60px;
+    font-weight: 600;
+    padding-left: 60px;
+  }
+  h3 {
+    font-family: 'PP Telegraf';
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    padding-left: 60px;
+  }
+  
+  body {
+    margin:0;
+    background-color: #0028FD;
+    color:white;
+  }
+
+  .sphinxmoth.svg {
+    width: 25%;
+    margin: auto;
+
+  }
+  .box-round-right {
+    border: 4px solid white;
+    padding: 60px;
+    border-top-right-radius: 230px;
+    border-bottom-right-radius: 230px;
+    background-color: rgba(0,40,253,.6);
+    width: 70%;
+    display: flex;
+    margin-left: 0;
+    border-left: none;
+    
+  }
+.box-round-left {
+  border: 4px solid white;
+  padding: 60px;
+  border-top-left-radius: 230px;
+  border-bottom-left-radius: 230px;
+  background-color: rgba(0,40,253,.6);
+  width: 70%;
+  display: flex;
+  margin-right: 0;
+  border-right: none;
+  margin-left: auto;
+  
+}
+.red-circle-big {
+    width: 405px;
+    height: 405px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: #ee3025;
+    position:absolute; 
+    top:200px; 
+    left:-100px;}
+}
+  .bugimg {
+    flex: 30%;
+
+  }
+  .bugimg img {
+    width: 300px;
+    margin-top: -85px;
+  }
+  .content {
+    flex: 70%;
+  }
+  body.bugpage {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
+  background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+  }
+body.bloompage {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
+background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+body.resourcespage {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
+background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+body.aboutpage {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
+background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.homepage main { 
+    position:relative;
+}
+
+  header {
+    background-color: white;
+    text-align: center;
+  }
+  img {
+    width:100%;
+  }
+  
+  nav {
+    width: 33%;
+    margin:auto;
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+  
+  nav ul { 
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+    margin:0;
+    font-family: pp telegraf;
+  }
+  nav li {
+    padding:10px 0;
+  
+  }
+  nav li a {
+    background-color:#EE4E45;
+    border-radius:20px;
+    padding:6px 16px;
+    color: #fff;
+    text-decoration:none;
+  }
+  nav li a:hover {
+   background-color:#2F2F2F;
+  }
+  main {
+    
+  }
+  

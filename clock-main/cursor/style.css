@@ -21,6 +21,7 @@ body {
 
 
 .cursor::after {
+    background-image: url(https://placekitten.com/g/200/300)
     content: "";
     width: 40px;
     height: 40px;
