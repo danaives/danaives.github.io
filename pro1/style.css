@@ -2,8 +2,8 @@
     font-family: "postino-std", serif;
     font-weight: 400;
     font-style: normal;
-    src: url('path-to-your-font.woff2') format('woff2'), /* Modern Browsers */
-         url('path-to-your-font.woff') format('woff');     /* Older Browsers */
+    src: url('fonts/Postino\ Std\ Regular.otf') format('otf'), /* Modern Browsers */
+         url('fonts/Postino\ Std\ Regular.otf') format('oft');     /* Older Browsers */
     /* Add other font properties, such as font-weight and font-style if needed */
     
 }
@@ -185,14 +185,11 @@ background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 1
 
 }
 body.resourcespage {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
-background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+  background-color: #0028FD;
 }
 
 body.aboutpage {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
-background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background-color: #0028FD;
 
 }
 .homepage main { 
