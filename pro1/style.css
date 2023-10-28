@@ -198,12 +198,7 @@ background-color: #0028FD;
 .about-h3 {
   text-align: left;
   width: 45%;
-}
-.about-clouds {
-  width: 600px;
-  position: absolute;
-  top: 950px;
-  right: 0px;
+  margin: 100px;
 }
 
 .red-circle-big-about {
@@ -225,7 +220,30 @@ background-color: #0028FD;
   background-color: #ee3025;
   position:absolute; 
   top:600px; 
-  right:-100px;
+  right: 200px;
+}
+
+.monarch-orange-about {
+  width: 600px;
+  top: 400px; 
+  margin-right: 100px;
+  margin-left: 800px;
+  position: absolute;
+}
+
+.mon-worm-fly-about {
+  width: 900px;
+  bottom: 100px; 
+  right: 10px;
+  left: 700px;
+  position: relative;
+}
+
+.about-clouds {
+  width: 500px;
+  position: absolute;
+  top: 950px;
+  right: 0px;
 }
 
 header.resourcespage{
