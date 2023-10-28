@@ -184,12 +184,43 @@ body.bloompage {
 background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
+header.resourcespage{
+  background-color: #0028FD;
+}
 body.resourcespage {
   background-color: #0028FD;
 }
 
 body.aboutpage {
 background-color: #0028FD;
+
+}
+
+.red-circle-big-about {
+  width: 405px;
+  height: 405px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #ee3025;
+  position:absolute; 
+  top: 1300px;px; 
+  left:-200px;
+}
+
+.red-circle-small-about {
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #ee3025;
+  position:absolute; 
+  top:600px; 
+  right:-100px;
+}
+
+header.resourcespage{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45baff+0,0028fd+100 */
+background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
 .homepage main { 
