@@ -195,6 +195,16 @@ body.aboutpage {
 background-color: #0028FD;
 
 }
+.about-h3 {
+  text-align: left;
+  width: 45%;
+}
+.about-clouds {
+  width: 600px;
+  position: absolute;
+  top: 950px;
+  right: 0px;
+}
 
 .red-circle-big-about {
   width: 405px;
