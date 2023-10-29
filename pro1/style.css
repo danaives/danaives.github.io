@@ -34,6 +34,7 @@ h1 {
   padding-left: 30px;
   font-size: 111px;
   margin: 50px;
+  line-height: 134px;
 }
 
 h2 {
@@ -82,28 +83,33 @@ h3 {
   margin-left: auto;
   
 }
+
+.home-h1 {
+  width: 60%;
+}
 .red-circle-big {
   width: 405px;
   height: 405px;
   border-radius: 50%;
   border: 4px solid white;
   background-color: #ee3025;
-  position:absolute; 
-  top:200px; 
+  position:relative; 
+  top: -600px;
   left:-200px;
 }
 
 .sky2-shape {
+  width: 1316px;
+  height: 1200px;
   border: 4px solid white;
   padding: 60px;
-  border-top-left-radius: 230px;
-  border-bottom-left-radius: 230px;
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
   background-color: #206DFE;
-  width: 70%;
-  display: flex;
   margin-right: 0;
   border-right: none;
   margin-left: auto;
+  z-index:1
 }
 .homepage .skyleft-shape {
   border: 4px solid white;
@@ -122,48 +128,103 @@ h3 {
 }
 
 .red-circle-small {
-  width: 205px;
-  height: 205px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 4px solid white;
   background-color: #ee3025;
   position:absolute; 
-  top:600px; 
-  right:-100px;
+  top:500px; 
+  left: 400px;
 
 }
+
 .sphinx-size {
-  width: 239px;
+  width: 400px;
   position:absolute;
-  top:-20px;
-  left:50px;
+  top: 1000px;
+  right: 90px;
+  transform: rotate(15deg);
 }
+
+.paintedlady-home {
+  width: 400px;
+  position:absolute;
+  top: 1300px;
+  right: 700px;
+  transform: rotate(15deg); 
+  z-index: 2;
+}
+
 .monarch-size {
   width: 300px;
   position:absolute;
-  top:0px;
-  left:250px;
+  top: 600px;
+  left: 400px;
 } 
-.bee-size {
-  width: 300px;
-  position:absolute;
-  top:40px;
-  left:450px;
-} 
+
 .clouds {
   width: 600px;
   position: absolute;
-  top: 950px;
+  top: 800px;
   right: 0px;
+  z-index:-1
 }
+
+.bee-size {
+  width: 500px;
+  bottom: 280px;
+  left: 450px;
+  right: 0;
+  position: absolute;
+  transform: rotate(20deg);
+} 
+
 .grassss {
   bottom: 0;
   left: 0;
   right: 0;
   width: 100vw;
   position: absolute;
-  
 }
+
+.worm {
+  width: 500px;
+  top: 600px;
+  left: 200px;
+  position: relative;
+  z-index: 1;
+}
+.worm2 {
+  width: 500px;
+  bottom: 120px;
+  left: 790px;
+  position: relative;
+  z-index: -2;
+}
+
+.red-circle-small2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #ee3025;
+  position:relative; 
+  bottom: 76px;
+  left: 900px;
+  z-index: -3;
+}
+
+
+.monarch-orange-home {
+  width: 550px;
+  top: 235px; 
+  left: 888px;
+  position: absolute;
+  z-index:1;
+  transform: scalex(-1);
+}
+
 .bugimg {
     flex: 30%;
 
@@ -226,8 +287,8 @@ background-color: #0028FD;
 }
 
 .mon-worm-fly-about {
-  width: 900px;
-  bottom: 50px; 
+  width: 700px;
+  bottom: 100px; 
   right: 10px;
   left: 700px;
   position: relative;
