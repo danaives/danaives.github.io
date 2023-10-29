@@ -460,11 +460,11 @@ background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 1
   position: absolute;
   margin-top: 1200px;
   top: 200px;
-  left: 50px;
+  left: 100px;
 }
 
 .sm-h3 {
-  margin-left: 50px;
+  margin-left: 100px;
   width: 500px;
   position: relative;
   top: -160px;
@@ -508,10 +508,10 @@ bottom: 300px;
 }
 
 .sw-h3 {
-  margin-left: 100px;
   width: 500px;
   position: relative;
   bottom: 920px;
+  left: 100px;
 }
 
 .grass-blooms {
@@ -610,6 +610,23 @@ header.resourcespage{
 background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
+
+.links-resources {
+  list-style-type: none;
+   text-decoration: none;
+  align-items:end;
+  margin:0;
+  
+}
+.links-resources a:hover {
+  color: #EE4E45;
+}
+
+.links-resources a:link {
+  color: white;
+}
+
+
 .homepage main { 
     position:relative;
 }
