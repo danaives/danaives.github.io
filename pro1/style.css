@@ -192,11 +192,11 @@ h3 {
 
 .flyline-home {
   width: 500px;
-  right: 10px;
-  bottom: 50px; 
-  left: 150px;
+  right: 0px;
+  top: 50px; 
+  left: 1250px;
   position:absolute; 
-  transform: rotate(93deg);
+  transform: rotate(176deg);
 }
 
 .flyline-home2 {
