@@ -417,36 +417,109 @@ background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 1
 
 .chocolatedaisy {
   width: 50%;
+  top: -300px;
   margin-left: 100px;
   margin-bottom: 200px;
+  position: relative;
+}
+
+.cd-h2 {
+  margin-left: 55%;
+  position: relative;
+  margin-top: 100px;
+  top: 200px;
+}
+
+.cd-h3 {
+  margin-left: 55%;
+  width: 650px;
+  position: relative;
+  top: 200px;
 }
 
 .white-line {
   width: 100%;
   height: 5px;
   background-color: #fff;
-  position: absolute;
+  position: relative;
+  top: -400px;
 
 }
 
 .milkweed {
   width: 50%;
   margin-left: 800px;
-  margin-bottom: 200px;
-  margin-top: 100px;
+  margin-bottom: 400px;
+  margin-top: -400px;
+  top: -100px;
+  position: relative;
+}
+
+.sm-h2 {
+  margin-right: 300px;
+  position: absolute;
+  margin-top: 1200px;
+  top: 200px;
+  left: 50px;
+}
+
+.sm-h3 {
+  margin-left: 50px;
+  width: 500px;
+  position: relative;
+  top: -160px;
 }
 
 .neaster {
   width: 50%;
   margin-left: 100px;
   margin-bottom: 200px;
+  margin-top: -300px;
+}
+
+.nea-h2 {
+  margin-left: 55%;
+  position: relative;
   margin-top: 100px;
+  top: -800px;
+}
+
+.nea-h3 {
+  margin-left: 55%;
+  width: 650px;
+  position: relative;
+  top: -800px;
 }
 
 .sneezeweed {
   width: 50%;
   margin-left: 800px;
   margin-bottom: 200px;
+position: relative;
+bottom: 300px;
+}
+
+.sw-h2 {
+  margin-right: 300px;
+  position: absolute;
+  margin-top: 1200px;
+  bottom: 1100px;
+  left: 100px;
+}
+
+.sw-h3 {
+  margin-left: 100px;
+  width: 500px;
+  position: relative;
+  bottom: 920px;
+}
+
+.grass-blooms {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  position: absolute;
 }
 
 header.resourcespage{
