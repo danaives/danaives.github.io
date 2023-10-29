@@ -135,7 +135,7 @@ h3 {
   background-color: #ee3025;
   position:absolute; 
   top:500px; 
-  left: 450px;
+  left: 465px;
 
 }
 
@@ -145,6 +145,7 @@ h3 {
   top: 1000px;
   right: 90px;
   transform: rotate(15deg);
+  z-index: 1;
 }
 
 .paintedlady-home {
@@ -201,10 +202,10 @@ h3 {
 .flyline-home2 {
   width: 500px;
   right: 10px;
-  bottom: 50px; 
-  left: 150px;
+  bottom: 0px; 
+  left: 880px;
   position:absolute; 
-  transform: rotate(93deg);
+  transform: rotate(90deg);
 }
 
 .flyline-home3 {
