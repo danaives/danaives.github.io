@@ -135,7 +135,7 @@ h3 {
   background-color: #ee3025;
   position:absolute; 
   top:500px; 
-  left: 400px;
+  left: 450px;
 
 }
 
@@ -174,10 +174,11 @@ h3 {
 .bee-size {
   width: 500px;
   bottom: 280px;
-  left: 450px;
+  left: 100px;
   right: 0;
   position: absolute;
   transform: rotate(20deg);
+  transform: scaleX(-1);
 } 
 
 .grassss {
@@ -189,23 +190,51 @@ h3 {
 }
 
 .flyline-home {
-
+  width: 500px;
+  right: 10px;
+  bottom: 50px; 
+  left: 150px;
+  position:absolute; 
+  transform: rotate(93deg);
 }
 
 .flyline-home2 {
-  
+  width: 500px;
+  right: 10px;
+  bottom: 50px; 
+  left: 150px;
+  position:absolute; 
+  transform: rotate(93deg);
 }
 
 .flyline-home3 {
-  
+  width: 330px;
+  right: 10px;
+  top: 200px; 
+  left: 600px;
+  position:absolute; 
+  transform: rotate(270deg);
+  z-index: 1;
 }
 
 .flyline-home4 {
-  
+  width: 350px;
+  right: 10px;
+  top: 450px; 
+  left: 50px;
+  position:absolute; 
+  transform: rotate(110deg);
+  z-index: 1;
 }
 
 .flyline-home5 {
-  
+  width: 500px;
+  right: 10px;
+  bottom: 800px; 
+  left: 100px;
+  position:absolute; 
+  transform: rotate(225deg);
+  z-index: -1;
 }
 
 .worm {
