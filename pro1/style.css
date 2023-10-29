@@ -414,6 +414,41 @@ body.bloompage {
 background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
+
+.chocolatedaisy {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+.white-line {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+
+}
+
+.milkweed {
+  width: 50%;
+  margin-left: 800px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.neaster {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.sneezeweed {
+  width: 50%;
+  margin-left: 800px;
+  margin-bottom: 200px;
+}
+
 header.resourcespage{
   background-color: #0028FD;
 }
