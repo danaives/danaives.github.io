@@ -2,10 +2,7 @@
     font-family: "postino-std", serif;
     font-weight: 400;
     font-style: normal;
-    src: url('fonts/Postino\ Std\ Regular.otf') format('opentype'), /* Modern Browsers */
-         url('fonts/Postino\ Std\ Regular.otf') format('otf');     /* Older Browsers */
-    /* Add other font properties, such as font-weight and font-style if needed */
-    
+    src: url('fonts/Postino\ Std\ Regular.otf') format('otf');
 }
 
 @font-face{
@@ -29,7 +26,7 @@ body.homepage {
   height: 300vh;
 }
 h1 {
-  font-family: 'Postino Std';
+  font-family: 'postino std';
   color: #fff;
   padding-left: 30px;
   font-size: 111px;
