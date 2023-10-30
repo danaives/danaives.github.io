@@ -3,7 +3,7 @@
     font-weight: 400;
     font-style: normal;
     src: url('fonts/Postino\ Std\ Regular.otf') format('opentype'), /* Modern Browsers */
-         url('fonts/Postino\ Std\ Regular.otf') format('opentype');     /* Older Browsers */
+         url('fonts/Postino\ Std\ Regular.otf') format('otf');     /* Older Browsers */
     /* Add other font properties, such as font-weight and font-style if needed */
     
 }
