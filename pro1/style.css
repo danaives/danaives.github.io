@@ -51,7 +51,8 @@ h3 {
   padding-left: 60px;
 }
 
-
+a {color: white;
+text-decoration: none;}
 
 .sphinxmoth.svg {
   width: 25vw;
@@ -613,19 +614,10 @@ background: linear-gradient(to bottom, rgba(0,40,253,1)  0%,rgba(69,186,255,1) 1
 
 .links-resources {
   list-style-type: none;
-   text-decoration: none;
-  align-items:end;
-  margin:0;
-  
 }
 .links-resources a:hover {
   color: #EE4E45;
 }
-
-.links-resources a:link {
-  color: white;
-}
-
 
 .homepage main { 
     position:relative;
