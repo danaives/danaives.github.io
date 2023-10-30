@@ -2,7 +2,7 @@
     font-family: "postino-std", serif;
     font-weight: 400;
     font-style: normal;
-    src: url('fonts/Postino\ Std\ Regular.otf') format('otf');
+    src: url(fonts/Postino\ Std\ Regular.otf) format('otf');
 }
 
 @font-face{
