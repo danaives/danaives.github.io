@@ -1,0 +1,20 @@
+@font-face {   
+font-family: "panel-sans", sans-serif;  font-family: "postino std", serif;
+font-weight: 700;
+font-style: bold;
+src: url(https://use.typekit.net/af/ec7332/00000000000000007750bd05/30/l?subset_id=2&fvd=n7&v=3)  format("woff2");
+}
+
+@font-face {
+    font-family: benetti grotesk;
+    font-weight: 700;
+    font-style: regular;
+    src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("otf");
+}
+
+@font-face {   
+    font-family: "panel-mono", monospace;
+font-weight: 400;
+font-style: normal;
+    src: url(https://use.typekit.net/af/a43166/00000000000000007750e6c0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2");
+}
