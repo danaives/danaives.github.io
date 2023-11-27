@@ -35,4 +35,15 @@ body {
     font-style: normal;
     color: #0B1957
   }
+  Img {
+     width:100%;
+    }
+    
+  .sweets-gallery .card { 
+    flex:1;
+}
   
+  .cherry-icon {
+    height:40px;
+    width:auto;
+  }
