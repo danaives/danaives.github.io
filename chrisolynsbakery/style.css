@@ -4,7 +4,7 @@
     font-family: "benetti grotesk";
     font-weight: 700;
     font-style: regular;
-    src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("otf");
+    src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
 
 body {
