@@ -1,7 +1,7 @@
 
 
 @font-face {
-    font-family: 'benetti grotesk';
+    font-family: "benetti grotesk";
     font-weight: 700;
     font-style: regular;
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("otf");
@@ -15,7 +15,7 @@ body {
   }
 
   h1 {
-    font-family: 'benetti grotesk';
+    font-family: "benetti grotesk";
     color: #FB9EBB;
     padding-left: 30px;
     font-size: 111px;
@@ -24,16 +24,15 @@ body {
   }
   
   h2 {
-    font-family: 'Menorah Grotesk';
-    font-size: 60px;
-    font-weight: 600;
-    padding-left: 60px;
+    font-family: "panel-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0B1957
   }
   h3 {
-    font-family: 'PP Telegraf';
-    font-weight: 300;
-    font-size: 25px;
-    color: #fff;
-    padding-left: 60px;
+    font-family: "panel-sans-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0B1957
   }
   
