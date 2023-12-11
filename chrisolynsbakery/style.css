@@ -38,7 +38,7 @@ body {
   Img {
      width:100%;
     }
-    
+
   .sweets-gallery .card { 
     flex:1;
 }
@@ -46,4 +46,100 @@ body {
   .cherry-icon {
     height:40px;
     width:auto;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin:0;
+    color: #0B1957;
+    background-color: #FEDCD1;
+  }
+  a {
+    color: #0B1957;
+    text-decoration: none;
+  }
+  h1 {
+    color: #FB9EBB;
+    margin:0;
+    padding:20px 20px 20px 20px;
+    border:1px solid #0B1957;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    display:inline-block;
+    background-color:#FAF3EB;
+  }
+  hr {
+    border-top:1px solid #0B1957;
+    margin-top:-40px;
+  }
+  header {
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:#FAF3EB;
+  }
+  nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100%;
+    padding: 16px 20px 0 20px
+  }
+  nav ul {
+    display:flex;
+    justify-content: flex-end;
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+  nav li {
+    border:1px solid #0B1957;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    background-color:#FB9EBB;
+  }
+  nav li:hover, nav li.active {
+    background-color:#FAF3EB;
+  }
+  /* padding with two numbers goes top-bottom then left-right */
+  nav ul a {
+    display:inline-block;
+    padding: 8px 16px;
+  }
+  .cherry-icon {
+    height:40px;
+  }
+  .sweets-section {
+    background-color:#FAF3EB;
+  }
+  .sweets-gallery {
+    width:80%;
+    margin:auto;
+    display:flex;
+  }
+  .sweets-gallery .card {
+    border:1px solid #0B1957;
+    border-top-left-radius: 333px;
+    border-top-right-radius: 333px;
+    background-color: #FEDCD1;
+    margin-right:40px;
+  }
+  .sweets-gallery .card:last-child {
+    margin-right:0;
+  }
+  .sweets-gallery .card img {
+    display:block;
+  }
+  /* link button */
+  .button { 
+    background-color:#FB9EBB;
+    border-top: 1px solid #0B1957;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 16px;
+  }
+  .product-img {
+    padding: 0 10px;
   }
