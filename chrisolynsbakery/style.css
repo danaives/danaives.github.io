@@ -166,11 +166,11 @@ body {
   }
 
 .pie {
+    width: 100%;
     position: relative;
-    width: 125%;
-    margin-right: 100px;
-    margin-left: 800px;
-    margin-top: -600px;
+    margin-right: 300px;
+    margin-left: 600px;
+    margin-top: -400px;
     z-index: -1;
 }
 .take-home {
