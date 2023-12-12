@@ -193,12 +193,14 @@ body {
 }
 .marquee {
   height: 200px;
-  width: 800px;
+  width: 200%;
   overflow: hidden;
+  white-space: nowrap;
   position: relative;
   margin: 0px auto;
+  
 }
-.marquee div {
+.marquee-div {
   display: inline-block;
   width: 300%;
   height: 111px;
@@ -208,11 +210,11 @@ body {
   animation: marquee 30s linear infinite;
 }
 
-.marquee span {
+.marquee-span {
   font-family: "benetti grotesk";
 }
 
 @keyframes marquee {
   0% { left: 0; }
-  100% { left: -100%; }
+  100% { left: -200%; }
 }
