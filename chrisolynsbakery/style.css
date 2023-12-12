@@ -257,6 +257,54 @@ justify-content: flex-end;
   0% { left: 0; }
   100% { left: -100%; }
 }
+.menu {
+  position: relative;
+}
+.lunch-marquee-container {
+  height: 120px;
+  overflow: hidden;
+  line-height: 120px;
+  position: relative;
+
+}
+.lunch-marquee {
+    top: 0;
+    left: 100%;
+    width: 300%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    font-family: "benetti grotesk";
+    font-size: 111px;
+    margin: 50px;
+    line-height: 114px;
+    padding-top: 100px;
+  }
+
+  .lunch-marquee2 {
+    animation-delay: 25s;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    position: absolute;
+  }
+  b {
+    padding-left: 10px;
+  }
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
 .footer {
  position: relative;
  justify-content: baseline;
