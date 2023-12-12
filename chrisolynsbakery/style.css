@@ -181,5 +181,38 @@ body {
 }
 .logo-home {
   width: 50%;
-  
+  margin-left: 400px;
+}
+.home {
+  background-color: #FAF3EB;
+}
+.cinnyhero {
+  width: 33%;
+  margin-left: 550px;
+  margin-top: -100px;
+}
+.marquee {
+  height: 200px;
+  width: 800px;
+  overflow: hidden;
+  position: relative;
+  margin: 0px auto;
+}
+.marquee div {
+  display: inline-block;
+  width: 300%;
+  height: 111px;
+  position: relative;
+  overflow: hidden;
+
+  animation: marquee 30s linear infinite;
+}
+
+.marquee span {
+  font-family: "benetti grotesk";
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
 }
