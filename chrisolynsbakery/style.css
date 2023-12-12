@@ -95,19 +95,26 @@ body {
   }
   nav ul {
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin:0;
     padding:0;
     list-style: none;
     font-family: "panel-sans-mono", sans-serif;
     font-weight: 800;
+    position: absolute;
+   margin-left: 550px;
+   
+
   }
   nav li {
     border:1px solid #0B1957;
     border-top-right-radius: 22px;
     border-top-left-radius: 22px;
-    background-color:#FB9EBB;
+    background-color:#FB9EBB 
+ 
   }
+  
+
   nav li:hover, nav li.active {
     background-color:#FAF3EB;
   }
@@ -140,25 +147,36 @@ body {
     border-top-right-radius: 333px;
     background-color: #FEDCD1;
     margin-right:40px;
+    position: block;
+    justify-content: space-between;
     z-index: 3;
+    font-family: "panel-sans-mono", sans-serif;
   }
   .sweets-gallery .card:last-child {
     margin-right:0;
   }
   .sweets-gallery .card img {
-    display:block;
+    display: block;
+    position: relative;
   }
   /* link button */
   .button { 
     background-color:#FB9EBB;
     border-top: 1px solid #0B1957;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px 16px;
+    padding:10px 16px 8px;
   }
+ .add {
+  width: 20%;
+ }
+
   .product-img {
-    padding: 0 10px;
+    display: block;
+    padding: -10px, 10px, ;
+    position: relative;
+   
   }
 
 .pie {
@@ -178,7 +196,10 @@ body {
 .logo-home {
   width: 50%;
   margin-left: 400px;
+  margin-right: 400px;
   position: relative;
+  display: inline;
+  justify-content: flex-end;
 }
 .home {
   background-color: #FAF3EB;
@@ -187,7 +208,9 @@ body {
   width: 33%;
   margin-top: -100px;
   position: relative;
-  align-items: center;
+margin-left: 550px;
+display: flex;
+justify-content: flex-end;
 
 }
 .marquee-container {
@@ -235,5 +258,6 @@ body {
   100% { left: -100%; }
 }
 .footer {
- position: absolute;
+ position: relative;
+ justify-content: baseline;
 }
