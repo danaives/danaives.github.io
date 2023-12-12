@@ -162,7 +162,7 @@ body {
 
   .pinkicing {
     position: relative;
-    margin-bottom: -5%;
+
   }
 
 .pie {
@@ -191,30 +191,47 @@ body {
   margin-left: 550px;
   margin-top: -100px;
 }
-.marquee {
-  height: 200px;
-  width: 200%;
+.marquee-container {
+  height: 120px;
   overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-  margin: 0px auto;
-  
-}
-.marquee-div {
-  display: inline-block;
-  width: 300%;
-  height: 111px;
-  position: relative;
-  overflow: hidden;
+  line-height: 120px;
 
-  animation: marquee 30s linear infinite;
+  .marquee {
+    top: 0;
+    left: 100%;
+    width: 300%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    font-family: "benetti grotesk";
+    font-size: 111px;
+    margin: 50px;
+    line-height: 134px;
+    margin-top: 1100px;
+  }
+
+  .marquee2 {
+    animation-delay: 25s;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  b {
+    padding-left: 10px;
+  }
 }
 
-.marquee-span {
-  font-family: "benetti grotesk";
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
 }
 
 @keyframes marquee {
   0% { left: 0; }
-  100% { left: -200%; }
+  100% { left: -100%; }
 }
+
