@@ -46,7 +46,7 @@ body {
 }
 
 .icing {
-    z-index: -300;
+    z-index: 1;
     position: relative;
 }
   
@@ -259,13 +259,12 @@ justify-content: flex-end;
 }
 .menu {
   position: relative;
+  margin-top: 100px;
 }
 .lunch-marquee-container {
-  height: 120px;
+  height: 320px;
   overflow: hidden;
-  line-height: 120px;
-  position: relative;
-
+  line-height: 320px;
 }
 .lunch-marquee {
     top: 0;
@@ -278,8 +277,7 @@ justify-content: flex-end;
     font-family: "benetti grotesk";
     font-size: 111px;
     margin: 50px;
-    line-height: 114px;
-    padding-top: 100px;
+    line-height: 244px;
   }
 
   .lunch-marquee2 {
@@ -312,6 +310,33 @@ justify-content: flex-end;
 .lunch-menu {
   display: block;
   width: 25%;
-  margin-left: 100px;
-  margin-top: 100px;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.crunchwrap {
+  position: absolute;
+  width: 25%;
+  margin-left: 800px;
+  margin-top: -300px;
+  z-index: 4;
+}
+.chili {
+  position: absolute;
+  width: 35%;
+  z-index: 4;
+  margin-top: -500px;
+  margin-left: 1200px;
+}
+.frozen {
+  width: 33%;
+  margin-left: 800px;
+  margin-top: -400px;
+  position: absolute;
+}
+.birria {
+  z-index: -2;
+  width: 45%;
+  margin-top: -300px;
+  margin-left: 0px;
+  position: relative;
 }
