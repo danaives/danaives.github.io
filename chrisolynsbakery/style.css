@@ -235,3 +235,12 @@ body {
   100% { left: -100%; }
 }
 
+.socials {
+  z-index: 200;
+  width: 10%;
+  margin-left: 700px;
+  margin-bottom: 300px;
+}
+.footer {
+  z-index: -200;
+}
