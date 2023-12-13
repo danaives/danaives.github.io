@@ -314,14 +314,14 @@ justify-content: flex-end;
   margin-top: 200px;
 }
 .crunchwrap {
-  position: absolute;
+  position: relative;
   width: 25%;
   margin-left: 800px;
   margin-top: -300px;
   z-index: 4;
 }
 .chili {
-  position: absolute;
+  position: relative;
   width: 35%;
   z-index: 4;
   margin-top: -500px;
@@ -331,7 +331,7 @@ justify-content: flex-end;
   width: 33%;
   margin-left: 800px;
   margin-top: -400px;
-  position: absolute;
+  position: relative;
 }
 .birria {
   z-index: -2;
@@ -340,3 +340,18 @@ justify-content: flex-end;
   margin-left: 0px;
   position: relative;
 }
+/* Common styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
