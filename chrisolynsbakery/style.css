@@ -48,6 +48,8 @@ body {
 .icing {
     z-index: 1;
     position: relative;
+    display: block;
+    margin-top: -50px;
 }
   
   .cherry-icon {
@@ -306,12 +308,14 @@ justify-content: flex-end;
 .footer {
  position: relative;
  justify-content: baseline;
+ z-index: -9;
 }
 .lunch-menu {
   display: block;
   width: 25%;
   margin-left: 300px;
   margin-top: 200px;
+  position: relative;
 }
 .crunchwrap {
   position: relative;
@@ -324,30 +328,32 @@ justify-content: flex-end;
   position: relative;
   width: 35%;
   z-index: 4;
-  margin-top: -500px;
+  margin-top: -600px;
   margin-left: 1200px;
+  display: block;
 }
 .frozen {
   width: 33%;
   margin-left: 800px;
-  margin-top: -400px;
+  margin-top: 00px;
   position: relative;
+  display: block;
 }
 .birria {
   z-index: -2;
   width: 45%;
-  margin-top: -500px;
+  margin-top: -400px;
   margin-left: 0px;
   position: relative;
+  display: block;
+  padding-bottom: 500px;
 }
-/* Common styles */
 .container {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 767px) {
   .container {
     width: 100%;
