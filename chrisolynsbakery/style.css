@@ -162,8 +162,8 @@ body {
     justify-content: center;
   }
   .sweets-gallery .card img {
-    display: flex;
-    align-items: baseline;
+    width: auto;
+    align-items: flex-end;
     justify-content: baseline;
     z-index: 1;
   }
@@ -185,8 +185,9 @@ body {
     margin: auto;
     justify-content: baseline;
     display: flex-end;
+    padding: -200px;
   }
-  
+
 .pie {
     width: 100%;
     position: relative;
