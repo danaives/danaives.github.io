@@ -263,59 +263,14 @@ justify-content: flex-end;
   position: relative;
   margin-top: 100px;
 }
-.lunch-marquee-container {
-  height: 320px;
-  overflow: hidden;
-  line-height: 320px;
-}
-.lunch-marquee {
-    top: 0;
-    left: 100%;
-    width: 300%;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    animation: marquee 20s linear infinite;
-    font-family: "benetti grotesk";
-    font-size: 111px;
-    margin: 50px;
-    line-height: 244px;
-  }
 
-  .lunch-marquee2 {
-    animation-delay: 25s;
-    white-space: nowrap;
-    animation: marquee 20s linear infinite;
-    position: absolute;
-  }
-  b {
-    padding-left: 10px;
-  }
-
-@keyframes marquee {
-  0% {
-    left: 100%;
-  }
-  100% {
-    left: -100%
-  }
-}
-
-@keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
-}
-.footer {
- position: relative;
- justify-content: baseline;
- z-index: -9;
-}
 .lunch-menu {
   display: block;
-  width: 25%;
+  width: 20%;
   margin-left: 300px;
   margin-top: 200px;
   position: relative;
+  padding: auto;
 }
 .crunchwrap {
   position: relative;
@@ -335,10 +290,9 @@ justify-content: flex-end;
 .frozen {
   width: 33%;
   margin-left: 800px;
-  z-index: 6;
-  position: relative;
   display: block;
-  padding: 25%;
+  margin-top: -1000px;
+  padding-bottom: 500px;
 }
 .birria {
   z-index: -2;
@@ -349,16 +303,59 @@ justify-content: flex-end;
   display: block;
   padding-bottom: 500px;
 }
+.savory {
+  background-color: #FAF3EB;
+  width: 100%;
+}
+.savory-gallery {
+  width:80%;
+  margin:auto;
+  display:flex;
+}
+.savory-card {
+  border:1px solid #0B1957;
+  border-radius: 44px;
+  background-color: #FEDCD1;
+  margin-right:40px;
+  position: block;
+  justify-content: space-between;
+  z-index: 3;
+  font-family: "panel-sans-mono", sans-serif;
+}
+.savory-gallery .savory-card img {
+  display: block;
+  position: relative;
+}
+.savory-gallery .card:last-child {
+  margin-right:0;
+}
+.savory-button { 
+  background-color:#FB9EBB;
+  border-top: 1px solid #0B1957;
+  border-bottom-left-radius: 44px;
+  border-bottom-right-radius: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 16px 8px;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
-
+.footer {
+  position: relative;
+  justify-content: baseline;
+  z-index: -9;
+  width: 100%;
+ }
 @media (max-width: 767px) {
   .container {
     width: 100%;
     padding: 10px;
   }
 }
+
 
