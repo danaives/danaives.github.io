@@ -153,7 +153,8 @@ body {
     margin-right:40px;
     position: flex;
     font-family: "panel-sans-mono", sans-serif;
-    align-items: flex-start;
+    align-items: flex-end;
+    z-index: -1;
   }
   .sweets-gallery .card:last-child {
     margin-right:0;
@@ -162,31 +163,28 @@ body {
   }
   .sweets-gallery .card img {
     display: flex;
-    position: absolute;
-    align-items: flex-start;
+    align-items: baseline;
+    justify-content: baseline;
+    z-index: 1;
   }
   .button { 
     background-color:#FB9EBB;
     border-top: 1px solid #0B1957;
-    border-bottom: 1px solid #0B1957;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    padding:10px 16px 16px;
+    padding:10px 10px 10px;
+    z-index: 3;
   }
+    
  .add {
   width: 20%;
  }
 
   .product-img {
-    display: flex-start;
-    padding: -10px, 10px, 8px;
-    position: relative;
-    justify-content: space-between;
-   
-  }
-  .donut {
-    display: flex-start;
+    margin: auto;
+    justify-content: baseline;
+    display: flex-end;
   }
   
 .pie {
