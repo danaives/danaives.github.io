@@ -140,18 +140,15 @@ body {
 
   .sweets-gallery {
     width:80%;
-    margin:auto;
     display:flex;
   }
   .sweets-gallery .card {
     border:1px solid #0B1957;
     border-top-right-radius: 333px;
     border-top-left-radius: 333px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
     background-color: #FEDCD1;
     margin-right:40px;
-    position: flex;
+    position: block;
     justify-content: space-between;
     z-index: 3;
     font-family: "panel-sans-mono", sans-serif;
@@ -160,14 +157,12 @@ body {
     margin-right:0;
   }
   .sweets-gallery .card img {
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    position: relative;
   }
   .button { 
     background-color:#FB9EBB;
     border-top: 1px solid #0B1957;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
