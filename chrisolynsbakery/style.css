@@ -139,8 +139,11 @@ body {
   }
 
   .sweets-gallery {
-    width:80%;
+    width:90%;
+    margin:auto;
     display:flex;
+    padding: 5%;
+    
   }
   .sweets-gallery .card {
     border:1px solid #0B1957;
@@ -148,23 +151,26 @@ body {
     border-top-left-radius: 333px;
     background-color: #FEDCD1;
     margin-right:40px;
-    position: block;
-    justify-content: space-between;
-    z-index: 3;
+    position: flex;
     font-family: "panel-sans-mono", sans-serif;
+    align-items: flex-start;
   }
   .sweets-gallery .card:last-child {
     margin-right:0;
+    width: 80%;
+    justify-content: center;
   }
   .sweets-gallery .card img {
-    display: block;
-    position: relative;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
   }
   .button { 
     background-color:#FB9EBB;
     border-top: 1px solid #0B1957;
+    border-bottom: 1px solid #0B1957;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding:10px 16px 16px;
   }
@@ -173,10 +179,14 @@ body {
  }
 
   .product-img {
-    display: block;
-    padding: -10px, 10px, ;
+    display: flex-start;
+    padding: -10px, 10px, 8px;
     position: relative;
+    justify-content: space-between;
    
+  }
+  .donut {
+    display: flex-start;
   }
   
 .pie {
