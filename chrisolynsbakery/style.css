@@ -141,7 +141,7 @@ body {
   .sweets-gallery {
     width:90%;
     margin:auto;
-    display:flex;
+    display: flex;
     padding: 5%;
     
   }
@@ -152,21 +152,13 @@ body {
     background-color: #FEDCD1;
     margin-right:40px;
     position: flex;
+    display: block;
     font-family: "panel-sans-mono", sans-serif;
     align-items: flex-end;
+    height: auto;
     
   }
-  .sweets-gallery .card:last-child {
-    margin-right:0;
-    width: 80%;
-    justify-content: center;
-  }
-  .sweets-gallery .card img {
-    width: auto;
-    align-items: flex-end;
-    justify-content: baseline;
-    z-index: 1;
-  }
+
   .button { 
     background-color:#FB9EBB;
     border-top: 1px solid #0B1957;
@@ -174,7 +166,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding:10px 10px 10px;
-    height: flex-end;
+    height: fit-content;
   }
     
  .add {
@@ -182,6 +174,16 @@ body {
  }
 
   .product-img {
+    width: 105%;
+    display: block;
+    position: relative;
+    height: auto;
+  }
+  .apple-img {
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 
 .pie {
@@ -317,23 +319,23 @@ justify-content: flex-end;
   padding: 5%;
 }
 .savory-card {
-  height: fit-content;
   border:1px solid #0B1957;
   border-radius: 44px;
   background-color: #FEDCD1;
   margin-right:40px;
   position: relative;
   justify-content: flex-end;
+  height: fit-content;
   font-family: "panel-sans-mono", sans-serif;
   
 }
 .savory-gallery .savory-card img {
   display: block;
   position: relative;
+  padding: 10px 10px 0px;
+  height: fit-content;
 }
-.savory-gallery .card:last-child {
-  margin-right:0;
-}
+
 .savory-button { 
   background-color:#FB9EBB;
   border-top: 1px solid #0B1957;
@@ -348,8 +350,12 @@ justify-content: flex-end;
   display: flex-end;
   position: relative;
 }
+.pizza-img {
+  display: flex-end;
+  position: relative;
+  width: 90%;
+}
 .meals-button { 
-  height: fit-content;
   background-color:#FB9EBB;
   border-top: 1px solid #0B1957;
   border-bottom-left-radius: 44px;
@@ -358,9 +364,12 @@ justify-content: flex-end;
   align-items: center;
   justify-content: space-between;
   padding:10px 16px 16px;
-
 }
 
+.meals-copy {
+  width: 35%;
+  margin-left: 300px;
+}
 .container {
   width: 80%;
   margin: 0 auto;
