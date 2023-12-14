@@ -7,9 +7,10 @@
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
 @media screen (max-width: 500px;){
- h1 {
-  font-size: 50px;
- }
+ .container {
+  width: 90%;
+  margin: 0 auto;
+}
 }
 
 body {
