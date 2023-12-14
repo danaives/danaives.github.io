@@ -15,6 +15,25 @@
   width: 90%;
   margin: 0 auto;
 }
+ /* Hide the menu by default on small screens */
+.nav {
+  display: none;
+}
+
+/* Styles for hamburger icon */
+.menu-toggle {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: #FB9EBB;
+  border: #0B1957 1px;
+  margin: 6px 0;
+}
+
 }
 
 body {
