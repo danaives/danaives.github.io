@@ -6,6 +6,12 @@
     font-style: regular;
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 body {
     margin:0;
@@ -95,19 +101,16 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
-    width:100%;
     padding: 16px 20px 0 20px
   }
   nav ul {
-    display:inline-flex;
-    justify-content: space-evenly;
+    display:flex;
     margin:0;
     padding:0;
     list-style: none;
     font-family: "panel-sans-mono", sans-serif;
     font-weight: 800;
    margin-left: 550px;
-   width: fit-content;
    
 
   }
@@ -115,7 +118,8 @@ body {
     border:1px solid #0B1957;
     border-top-right-radius: 22px;
     border-top-left-radius: 22px;
-    background-color:#FB9EBB 
+    background-color:#FB9EBB;
+    display: flex;
  
   }
   
@@ -381,12 +385,7 @@ justify-content: flex-end;
   z-index: -9;
   width: 100%;
  }
-@media (max-width: 767px) {
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-}
+
 .marquee-container {
   height: 120px;
   overflow: hidden;
