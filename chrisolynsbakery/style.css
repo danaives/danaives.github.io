@@ -6,12 +6,6 @@
     font-style: regular;
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
-@media (max-width: 767px) {
-  .container {
-    width: fit-content;
-    padding: 10px;
-  }
-}
 
 body {
     margin:0;
@@ -55,7 +49,7 @@ body {
     z-index: -1;
     position: relative;
     display: flex;
-   
+    margin-top: -50px;
 }
   
   .cherry-icon {
@@ -99,19 +93,20 @@ body {
   }
   nav {
     display:flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100%;
     padding: 16px 20px 0 20px
   }
   nav ul {
-    display:flex;
+    display:inline-flex;
+    justify-content: space-evenly;
     margin:0;
     padding:0;
     list-style: none;
     font-family: "panel-sans-mono", sans-serif;
     font-weight: 800;
    margin-left: 550px;
-  
    
 
   }
@@ -119,9 +114,8 @@ body {
     border:1px solid #0B1957;
     border-top-right-radius: 22px;
     border-top-left-radius: 22px;
-    background-color:#FB9EBB;
-    display: block;
-    justify-content: space-between;
+    background-color:#FB9EBB 
+ 
   }
   
 
@@ -132,7 +126,7 @@ body {
   nav ul a {
     display:inline-block;
     padding: 8px 16px;
-    position: flex;
+    position: relative;
   }
   .cherry-icon {
     height:100px;
@@ -193,14 +187,14 @@ body {
 
 .pie {
     width: 100%;
-    position: flex;
+    position: relative;
     margin-right: 300px;
     margin-left: 600px;
     margin-top: -400px;
     z-index: -1;
 }
 .take-home {
-    position: flex;
+    position: relative;
     width: 33%;
     margin-left: 200px;
     
@@ -209,7 +203,7 @@ body {
   width: 50%;
   margin-left: 400px;
   margin-right: 400px;
-  position: flex;
+  position: relative;
   display: inline;
   justify-content: flex-end;
 }
@@ -386,5 +380,55 @@ justify-content: flex-end;
   z-index: -9;
   width: 100%;
  }
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.marquee-container {
+  height: 120px;
+  overflow: hidden;
+  line-height: 120px;
+
+  .marquee {
+    top: 0;
+    left: 100%;
+    width: 300%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    font-family: "benetti grotesk";
+    font-size: 111px;
+    margin: 50px;
+    line-height: 134px;
+    margin-top: 1100px;
+  }
+
+  .marquee2 {
+    animation-delay: 25s;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    position: absolute;
+  }
+  b {
+    padding-left: 10px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
 
 
