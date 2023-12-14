@@ -8,7 +8,7 @@
 }
 @media (max-width: 767px) {
   .container {
-    width: 100%;
+    width: fit-content;
     padding: 10px;
   }
 }
@@ -99,8 +99,8 @@ body {
   }
   nav {
     display:flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
     padding: 16px 20px 0 20px
   }
   nav ul {
@@ -111,6 +111,7 @@ body {
     font-family: "panel-sans-mono", sans-serif;
     font-weight: 800;
    margin-left: 550px;
+  
    
 
   }
@@ -119,8 +120,8 @@ body {
     border-top-right-radius: 22px;
     border-top-left-radius: 22px;
     background-color:#FB9EBB;
-    display: flex;
- 
+    display: block;
+    justify-content: space-between;
   }
   
 
@@ -131,7 +132,7 @@ body {
   nav ul a {
     display:inline-block;
     padding: 8px 16px;
-    position: relative;
+    position: flex;
   }
   .cherry-icon {
     height:100px;
@@ -192,14 +193,14 @@ body {
 
 .pie {
     width: 100%;
-    position: relative;
+    position: flex;
     margin-right: 300px;
     margin-left: 600px;
     margin-top: -400px;
     z-index: -1;
 }
 .take-home {
-    position: relative;
+    position: flex;
     width: 33%;
     margin-left: 200px;
     
@@ -208,7 +209,7 @@ body {
   width: 50%;
   margin-left: 400px;
   margin-right: 400px;
-  position: relative;
+  position: flex;
   display: inline;
   justify-content: flex-end;
 }
@@ -385,50 +386,5 @@ justify-content: flex-end;
   z-index: -9;
   width: 100%;
  }
-
-.marquee-container {
-  height: 120px;
-  overflow: hidden;
-  line-height: 120px;
-
-  .marquee {
-    top: 0;
-    left: 100%;
-    width: 300%;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    animation: marquee 20s linear infinite;
-    font-family: "benetti grotesk";
-    font-size: 111px;
-    margin: 50px;
-    line-height: 134px;
-    margin-top: 1100px;
-  }
-
-  .marquee2 {
-    animation-delay: 25s;
-    white-space: nowrap;
-    animation: marquee 20s linear infinite;
-    position: absolute;
-  }
-  b {
-    padding-left: 10px;
-  }
-}
-
-@keyframes marquee {
-  0% {
-    left: 100%;
-  }
-  100% {
-    left: -100%
-  }
-}
-
-@keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
-}
 
 
