@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
  /* Hide the menu by default on small screens */
- .nav-mobile {
+ .nav {
   display: none;
  }
  
