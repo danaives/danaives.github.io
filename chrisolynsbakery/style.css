@@ -46,10 +46,10 @@ body {
 }
 
 .icing {
-    z-index: 1;
+    z-index: -1;
     position: relative;
-    display: block;
-    margin-top: -50px;
+    display: flex;
+   
 }
   
   .cherry-icon {
@@ -99,15 +99,15 @@ body {
     padding: 16px 20px 0 20px
   }
   nav ul {
-    display:flex;
-    justify-content: center;
+    display:inline-flex;
+    justify-content: space-evenly;
     margin:0;
     padding:0;
     list-style: none;
     font-family: "panel-sans-mono", sans-serif;
     font-weight: 800;
-    position: absolute;
    margin-left: 550px;
+   width: fit-content;
    
 
   }
@@ -386,6 +386,50 @@ justify-content: flex-end;
     width: 100%;
     padding: 10px;
   }
+}
+.marquee-container {
+  height: 120px;
+  overflow: hidden;
+  line-height: 120px;
+
+  .marquee {
+    top: 0;
+    left: 100%;
+    width: 300%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    font-family: "benetti grotesk";
+    font-size: 111px;
+    margin: 50px;
+    line-height: 134px;
+    margin-top: 1100px;
+  }
+
+  .marquee2 {
+    animation-delay: 25s;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+    position: absolute;
+  }
+  b {
+    padding-left: 10px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%
+  }
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
 }
 
 
