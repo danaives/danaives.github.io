@@ -56,6 +56,10 @@ h2 {
   font-size: 20px;
   width: 40%;
 }
+.sweets-gallery .card {
+  width: 80%;
+  margin: auto;
+}
 
 }
 
