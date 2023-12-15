@@ -41,7 +41,17 @@
   width: 90%;
   margin: 0 auto;
  }
-
+ .Img {
+  width:90%;
+ }
+.h2 {
+  font-family: "benetti grotesk";
+  color: #FB9EBB;
+  padding-left: 30px;
+  font-size: 48px;
+  margin: 0px;
+  line-height: 75px;
+}
 }
 
 body {
