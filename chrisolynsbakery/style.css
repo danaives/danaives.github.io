@@ -15,6 +15,9 @@
   width: 40%;
   margin: 0 auto;
 }
+.nav {
+  width: 40%;
+}
  
  /* Styles for hamburger icon */
  .nav-toggle {
