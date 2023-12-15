@@ -7,7 +7,7 @@
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
 @media screen (max-width: 700px;){
- .mobile {
+ .container {
   width: 90%;
   margin: auto;
 }
