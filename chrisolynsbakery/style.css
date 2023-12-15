@@ -33,7 +33,10 @@
   border: #0B1957 1px;
   margin: 6px 0;
  }
- 
+ .icing {
+  width: 90%;
+  margin: 0 auto;
+ }
 
 }
 
