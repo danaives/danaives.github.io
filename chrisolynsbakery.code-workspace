@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "chrisolynsbakery"
+		},
+		{
+			"path": "clock-main"
+		},
+		{
+			"path": "htmlcheatsheet"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "mychatgptsite"
+		},
+		{
+			"path": "pro1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "chrisolynsbakery"
+	}
+}
