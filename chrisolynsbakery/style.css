@@ -63,12 +63,23 @@ h2 {
 .cherry-icon {
   height:50px;
 }
-* {
-  box-sizing: flex;
-}
-.button {
+.pie {
   width: 90%;
-  margin: 0;
+  position: flex;
+}
+.take-home {
+  position: flex;
+  width: 90%;
+  margin:auto;
+  
+}
+.logo-home {
+width: 50%;
+margin: auto;
+}
+.home {
+width: 90%;
+margin: 0;
 }
 }
 
@@ -245,7 +256,7 @@ body {
  }
 
   .product-img {
-    width: 105%;
+    width: 100%;
     display: block;
     position: relative;
     height: auto;
@@ -259,7 +270,7 @@ body {
 
 .pie {
     width: 100%;
-    position: relative;
+    position: flex;
     margin-right: 300px;
     margin-left: 600px;
     margin-top: -400px;
@@ -288,7 +299,6 @@ body {
   position: relative;
 margin-left: 550px;
 display: flex;
-justify-content: flex-end;
 
 }
 .marquee-container {
