@@ -15,10 +15,6 @@
   width: 40%;
   margin: 0 auto;
 }
- /* Hide the menu by default on small screens */
- .nav {
-  display: none;
- }
  
  /* Styles for hamburger icon */
  .nav-toggle {
@@ -53,7 +49,8 @@ margin: 0;
 }
 .pie {
   width: 90%;
-  position: block;
+  position: flex;
+  margin: 0;
 }
 .take-home {
   position: flex;
