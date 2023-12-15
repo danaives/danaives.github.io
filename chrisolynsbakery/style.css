@@ -9,8 +9,9 @@
 @media screen (max-width: 700px;){
  .container {
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
 }
+
 
 }
 
@@ -53,10 +54,9 @@ body {
 }
 
 .icing {
-    z-index: 1;
     position: relative;
     display: block;
-    margin-top: -50px;
+    z-index: -99;
 }
   
   .cherry-icon {
@@ -97,7 +97,6 @@ body {
     background-color:#FAF3EB;
       border-top:1px solid #0B1957;
       margin-top: -1px;
-      display: relative;
   
   }
   nav {
@@ -116,9 +115,6 @@ body {
     font-family: "panel-sans-mono", sans-serif;
     font-weight: 800;
     position: flex;
-
-   
-
   }
   nav li {
     border:1px solid #0B1957;
@@ -177,7 +173,6 @@ body {
   .button { 
     background-color:#FB9EBB;
     border-top: 1px solid #0B1957;
-    font-size: flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -282,7 +277,6 @@ display: flex;
 }
 .menu {
   position: relative;
-  margin-top: 100px;
 }
 
 .lunch-menu {
@@ -316,7 +310,7 @@ display: flex;
   padding-bottom: 500px;
 }
 .birria {
-  z-index: -2;
+  z-index: -11111;
   width: 45%;
   margin-top: -400px;
   margin-left: 0px;
