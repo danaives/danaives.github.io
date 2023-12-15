@@ -242,6 +242,22 @@ body {
     margin-left: 200px;
     
 }
+.home-head{
+  align-items: center;
+  width: auto;
+  margin: auto;
+
+  .cinnyhero {
+    width: 33%;
+    margin-top: -100px;
+    position: relative;
+  margin-left: 550px;
+  margin-right: 550px;
+  display: inline-block;
+
+  
+  }
+}
 .logo-home {
   width: 50%;
   margin-left: 400px;
@@ -253,15 +269,7 @@ body {
 .home {
   background-color: #FAF3EB;
 }
-.cinnyhero {
-  width: 33%;
-  margin-top: -100px;
-  position: relative;
-margin-left: 550px;
-margin-right: 550px;
-display: flex;
 
-}
 .marquee-container {
   height: 120px;
   overflow: hidden;
