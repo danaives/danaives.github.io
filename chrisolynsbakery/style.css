@@ -420,16 +420,13 @@ body {
   width: 35%;
   margin-left: 300px;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
+
 .footer {
   position: relative;
   justify-content: baseline;
   z-index: -9;
-  width: 100%;
+  width:fit-content;
+  height: fit-content;
  }
 
 
