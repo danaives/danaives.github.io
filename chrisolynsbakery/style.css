@@ -54,8 +54,8 @@ body {
     font-family: "benetti grotesk";
     color: #FB9EBB;
     padding-left: 30px;
-    font-size: 111px;
-    margin: 50px;
+    font-size: 88px;
+    margin: 30px;
     line-height: 134px;
   }
   
@@ -306,10 +306,10 @@ display: flex;
 }
 .menu {
   position: relative;
+ 
 }
 
 .lunch-menu {
-  display: block;
   width: 20%;
   margin-left: 300px;
   margin-top: 200px;
