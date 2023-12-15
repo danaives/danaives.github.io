@@ -6,7 +6,7 @@
     font-style: regular;
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
-@media screen (max-width: 700px;){
+@media (max-width: 1000px;){
  .container {
   width: 90%;
   margin: auto;
@@ -19,7 +19,6 @@ body {
     color:white;
     position: relative;
   }
-
   h1 {
     font-family: "benetti grotesk";
     color: #FB9EBB;
