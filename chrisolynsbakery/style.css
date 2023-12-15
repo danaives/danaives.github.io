@@ -6,96 +6,12 @@
     font-style: regular;
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
-@media screen (max-width: 500px;){
+@media screen (max-width: 700px;){
  .container {
   width: 90%;
   margin: 0 auto;
 }
-.header {
-  width: 40%;
-  margin: 0 auto;
-  position: flex;
-}
- .nav-mobile {
-  display: block;
- }
- /* Styles for hamburger icon */
- .nav-toggle {
-  display: block;
-  cursor: pointer;
- }
- 
- .hamburger {
-  width: 40px;
-  height: 13px;
-  background-color: #FB9EBB;
-  margin: 6px 0;
- }
- .icing {
-  width: 40%;
-  margin: 0 auto;
-  position: block;
-  z-index: -5;
- }
- .sweets-section {
-  width: 50%;
-  position: flex;
-  margin: 0 auto;
- }
- .button {
-  width: fit-content;
-  font-size: x-small;
- }
- .Img {
-  width: fit-content;
- }
- body {
-margin: 0;
-  width: 90%;
-}
-.cherry-icon {
-  height:50px;
-  position: flex;
-}
-.pie {
-  width: fit-content;
-  position: relative;
 
-}
-.take-home {
-  position: block;
-  width: 90%;
-  margin:auto;
-  
-}
-.logo-home {
-width: 50%;
-margin: auto;
-}
-.home {
-width: 90%;
-margin: 0;
-}
-.sweets-gallery .card {
-  position: flex;
-  display: block;
-  
-}
-.button { 
-  background-color:#FB9EBB;
-  border-top: 1px solid #0B1957;
-  font-size: 11px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: fit-content;
-}
-h1 {
-  padding-left: 10px;
-  font-size: 55px;
-  margin: 20px;
-  line-height: 75px;
-}
 }
 
 body {
@@ -181,7 +97,7 @@ body {
     background-color:#FAF3EB;
       border-top:1px solid #0B1957;
       margin-top: -1px;
-      display: flex;
+      display: relative;
   
   }
   nav {
