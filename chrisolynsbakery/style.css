@@ -1,42 +1,10 @@
-
-
 @font-face {
     font-family: "benetti grotesk";
     font-weight: 700;
     font-style: regular;
     src: url(fonts/BenettigroteskfreeRegular-ZVvZ3.otf) format("opentype");
 }
-@media only screen and (max-width: 768px;){
-  .container {
-   width: 100%;
-   height: 100%;
-   margin: auto;
-   font-size: smaller;
- }
-}
-@media only screen and (min-width: 601px;){
-  .container {
-   width: 100%;
-   height: 100%;
-   margin: auto;
-   font-size: smaller;
- }
-}
-@media only screen and (min-width: 600px;){
-  .container {
-   width: 100%;
-   height: 100%;
-   margin: auto;
-   font-size: smaller;
- }
 
-}
-@media only screen and (max-width: 1200px;){
-  .container {
-   width: 100%;
-   height: 100%;
- }
-}
 
 body {
     margin:0;
@@ -69,11 +37,12 @@ body {
      width:100%;
     }
 
-  .sweets-gallery .card { 
+  /* .sweets-gallery .card { 
     flex: 1;
     z-index: 1;
     position: relative;
-}
+    height:100%;
+} */
 
 .icing {
     position: relative;
@@ -176,6 +145,7 @@ body {
     display: flex;
     padding: 5%;
     position: relative;
+    height:500px;
     
   }
   .sweets-gallery .card {
@@ -184,12 +154,13 @@ body {
     border-top-left-radius: 333px;
     background-color: #FEDCD1;
     margin-right:40px;
-    position: flex;
-    display: block;
+    display: flex;
+    flex-direction:column;
+    flex:1;
     font-family: "panel-sans-mono", sans-serif;
-    align-items: flex-end;
+    align-items: stretch;
     width: fit-content;
-    height: fit-content;
+    height: 100%;
     justify-content: flex-end;
   
     
@@ -326,11 +297,11 @@ body {
   z-index: 4;
 }
 .chili {
-  position: relative;
+  position: absolute;
   width: 35%;
   z-index: 4;
-  margin-top: -600px;
-  margin-left: 1200px;
+  right:-80px;
+  top:600px;
   display: block;
 }
 .frozen {
@@ -421,7 +392,54 @@ body {
   z-index: -9;
   width:100%;
   height: fit-content;
+  margin-bottom:-8px;
  }
 
 
+ @media only screen and (max-width: 1024px){
+  .sweets-gallery {
+    height:360px;
+  }
+ }
 
+ @media only screen and (max-width: 768px){
+  .container {
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   font-size: smaller;
+ }
+ .sweets-gallery {
+  height:220px;
+  padding:0;
+ }
+ .sweets-gallery .card {
+  margin-right:16px;
+ }
+ .pie {
+    width: 100%;
+    position: flex;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: -1;
+  }
+  .take-home {
+    width: 90%;
+    margin:auto;    
+  }
+  .button {
+    font-size:14px;
+  }
+  nav {
+    flex-direction: column;
+    align-items:center;
+  }
+  nav .logo {
+    order:1;
+  }
+  nav .cart {
+    order: 2;
+  }
+  nav ul { order:3;}
+}
